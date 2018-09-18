@@ -75,7 +75,7 @@ function getAuthCode(mainResponse, baseUrl, clientId, clientSecret) {
 app.get("/auth", function(req, res) {
     console.log("AuthTokenServer: getting PRODUCTION token...");
         // ***** PUT YOUR PRODUCTION KEYS HERE *****
-    getAuthCode(res, "developer.api.autodesk.com", "MyConsumerKey", "MyConsumerSecret");
+    getAuthCode(res, "developer.api.autodesk.com", "CCKNPse3uMVFGDleG7SLqqAzhBAnKSEj", "Mfip8u9QQnF67im4");
 });
 
 app.get("/auth-stg", function(req, res) {
